@@ -1,0 +1,27 @@
+.hamburger_menu {
+    position: fixed; /* Fixed position to cover the viewport */
+    top: -100vh; /* Start above the viewport */
+    left: 0;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: #272727; /* Background color */
+    color: white; /* Text color */
+    z-index: 40; /* Higher z-index to appear on top */
+    transition: top 0.5s cubic-bezier(0.23, 1, 0.32, 1), opacity 0.3s ease; /* Smooth slide and fade-in */
+    opacity: 0; /* Start hidden */
+}
+
+.hamburger_menu.open {
+    top: 0; /* Slide down into view */
+    opacity: 1; /* Fully visible when open */
+}
+
+/* Optional: Add a fade effect for the menu items */
+.hamburger_menu ul {
+    opacity: 0; /* Start hidden */
+    transition: opacity 0.3s ease 0.2s; /* Fade in after the menu */
+}
+
+.hamburger_menu.open ul {
+    opacity: 1; /* Fade in when menu is open */
+}
