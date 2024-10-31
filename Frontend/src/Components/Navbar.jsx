@@ -32,7 +32,7 @@ const Navbar = () => {
                 <div className='flex items-center'>
                     <ul className='sm:flex sm:items-center sm:text-base 2xl:text-2xl sm:gap-10  hidden'>
                         <li className='cursor-pointer hover:underline'>Blog</li>
-                        <li className='cursor-pointer hover:underline'>Contact</li>
+                        <li className='cursor-pointer hover:underline' onClick={()=>handleClick('contact')}>Contact</li>
                         <li className='cursor-pointer hover:underline'>Projects</li>
                         <li className='cursor-pointer hover:underline' onClick={()=>handleClick('about')}>About</li>
                     </ul>
