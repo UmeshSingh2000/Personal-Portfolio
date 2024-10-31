@@ -5,7 +5,7 @@ const Homepage = () => {
     return (
         <div className='h-svh relative'>
             <Navbar />
-            <div className=' h-full font-bold flex flex-col gap-4 justify-center sm:items-center'>
+            <div className='px-12 h-full font-bold flex flex-col gap-4 justify-center sm:items-center'>
                 <h1 className='text-6xl mt-2 sm:text-8xl lg:text-[7rem] 2xl:text-[12rem]'>Hi 👋,<br /> I'm <span style={{
                     background: 'linear-gradient(90deg, #9B59B6 0%, #1ABC9C 50.5%, #9A8C6A 100%)',
                     WebkitBackgroundClip: 'text',
