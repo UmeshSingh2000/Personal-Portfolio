@@ -2,7 +2,6 @@ import React from 'react'
 import Homepage from './Pages/Homepage'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from './Pages/About'
-import Navbar from './Components/Navbar'
 import ContactMe from './Pages/ContactMe'
 
 

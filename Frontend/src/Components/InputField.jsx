@@ -4,8 +4,8 @@ import TextField from '@mui/material/TextField';
 
 const InputField = ({placeholder}) => {
     return (
-        <div className='w-screen px-12'>
-            <TextField className='w-full' id="standard-basic" label={placeholder} variant="standard" />
+        <div className='w-screen px-12 flex justify-center'>
+            <TextField className='w-96' id="standard-basic" label={placeholder} variant="standard" />
         </div>
     )
 }
