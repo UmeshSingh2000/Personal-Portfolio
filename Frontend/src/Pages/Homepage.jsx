@@ -13,9 +13,9 @@ const Homepage = () => {
                 }}>Umesh!</span></h1>
                 <p className='font-light text-2xl tracking-wider sm:text-5xl'>FullStack Developer</p>
                 <div className='flex gap-5'>
-                    <a href="https://www.linkedin.com/in/umesh-singh-mehta-93819a194/" target='_blank'><i className="fa-brands fa-linkedin text-4xl cursor-pointer"></i></a>
-                    <a href="https://github.com/UmeshSingh2000" target='_blank'><i className="fa-brands fa-github text-4xl cursor-pointer"></i></a>
-                    <a href="mailto:umeshsighmehta4@gmail.com"><i className="fa-regular fa-envelope text-4xl cursor-pointer"></i></a>
+                    <a href="https://www.linkedin.com/in/umesh-singh-mehta-93819a194/" target='_blank'><i className="fa-brands fa-linkedin text-2xl cursor-pointer"></i></a>
+                    <a href="https://github.com/UmeshSingh2000" target='_blank'><i className="fa-brands fa-github text-2xl cursor-pointer"></i></a>
+                    <a href="mailto:umeshsighmehta4@gmail.com"><i className="fa-regular fa-envelope text-2xl cursor-pointer"></i></a>
                 </div>
             </div>
         </div>
