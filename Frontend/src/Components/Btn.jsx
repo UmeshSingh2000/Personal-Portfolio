@@ -18,7 +18,7 @@ const Btn = ({ text, email, message,setMessage,setEmail }) => {
     }
     setLoader(true);
     try {
-      const res = await axios.post('http://localhost:3000/api/send_email', {
+      const res = await axios.post('https://personal-portfolio-rur8.onrender.com/api/send_email', {
         email, message
       })
       setServerMessage(res.data.message);
