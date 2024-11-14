@@ -33,7 +33,7 @@ const Projects = () => {
         {
             imgDesktop: img2Desktop,
             imgMobile: img2Mobile,
-            link: 'https://ecommerce-seven-ruby-85.vercel.app/',
+            link: 'https://youtube-self-three.vercel.app/',
             title: 'Youtube Frontend Clone',
             desc:"YouTube clone using React and Redux, featuring a responsive UI that closely mimics YouTube's interface",
         },
