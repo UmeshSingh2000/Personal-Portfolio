@@ -26,7 +26,7 @@ const Projects = () => {
         {
             imgDesktop: img1Desktop,
             imgMobile: img1Mobile,
-            link: 'https://ecommerce-seven-ruby-85.vercel.app/',
+            link: 'https://ecommerce-frontend-cqbi.onrender.com/',
             title: 'Ecommerce Shopping App',
             desc: 'Ecommerce Web application using Reactjs and Redux',
         },
